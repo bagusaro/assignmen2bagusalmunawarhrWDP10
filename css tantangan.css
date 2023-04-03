@@ -1,0 +1,227 @@
+/* css navbar */
+body{
+	background: #eeeeee;
+	font-family: 'Varela Round', sans-serif;
+}
+.form-inline {
+	display: inline-block;
+}
+.navbar-header.col {
+	padding: 0 !important;
+}	
+.navbar {		
+	background: #fff;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-bottom: 1px solid #d6d6d6;
+    position: fixed;
+	box-shadow: 0 0 4px rgba(63, 121, 82, 0.1);
+}
+.nav-link {
+	margin: 0 5px;
+}
+.nav-link img {
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	margin: -8px 0;
+	float: left;
+	margin-right: 10px;
+}
+.navbar .navbar-brand {
+	color: rgb(27, 220, 20);
+	padding-left: 0;
+	font-size: 40px;
+	padding-right: 50px;
+    font-style: oblique; 
+	font-family: 'Raleway', sans-serif;
+}
+.navbar .navbar-brand b {
+	font-weight: bold;
+    font-style: normal;
+	color: aqua;
+}
+.navbar .navbar-nav a:hover, .navbar .navbar-nav a:focus {
+	color: #f08373 !important;
+}
+.navbar .navbar-nav a.active, .navbar .navbar-nav a.active:hover {
+	color: #eb5844 !important;
+	background: transparent !important;
+}
+.search-box {
+	position: relative;
+}	
+.search-box input.form-control {		
+	padding-right: 35px;
+	border-radius: 0;
+	padding-left: 0;
+	border-width: 0 0 1px 0;
+	box-shadow: none;
+}
+.search-box input.form-control:focus {		
+	border-color: #f08373;		
+}
+.search-box .input-group-text {
+	min-width: 35px;
+	border: none;
+	background: transparent;
+	position: absolute;
+	right: 0;
+	z-index: 9;
+	padding: 7px 0 7px 7px;
+	height: 100%;
+}
+.search-box i {
+	color: #a0a5b1;
+	font-size: 19px;
+}
+.navbar .nav-item i {
+	font-size: 18px;
+}
+.navbar .dropdown-item i {
+	font-size: 16px;
+	min-width: 22px;
+}
+.navbar .nav-item.show > a {
+	background: none !important;
+}
+.navbar .dropdown-menu {
+	border-radius: 1px;
+	border-color: #e5e5e5;
+	box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.navbar .dropdown-menu a {
+	color: #777;
+	padding: 8px 20px;
+	line-height: normal;
+	font-size: 15px;
+}
+.navbar .navbar-form {
+	margin-right: 0;
+	margin-left: 0;
+	border: 0;
+}
+/* css tantangan */
+.card{
+    max-width: 1000px;
+    margin: 20px;;
+    margin-top: 40px;
+    padding: 30px 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+.card1{
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.descriptioncard{
+    width: 900px;
+    padding: 20px 20px;
+    margin: auto;
+}
+
+.headingprofile{
+    margin-bottom: 0px;
+}
+
+.parafdesc{
+    margin-bottom: 20px;
+    margin-left: 1px;
+}
+
+.biodata{
+    border-left: 1px solid;
+    padding: 10px 15px;
+    width: 1000px;
+}
+
+.pilihan{
+    padding-left: 30px;
+}
+
+.button1{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 0 rgba(94, 77, 124, 0.2);
+    background-color: #fd650d;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;
+    margin: 6px 0px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.button1:hover{
+    background-color: transparent;
+    border-color: rgb(41, 1, 105);
+    /* border: 3px solid; */
+    border-radius: 5px;
+    color: rgb(197, 15, 15);
+}
+
+.button2{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 0 rgba(94, 77, 124, 0.2);
+    background-color: #0d45fd;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;
+    margin: 6px 0px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.button2:hover{
+    background-color: transparent;
+    border-color: rgb(41, 1, 105);
+    /* border: 3px solid; */
+    border-radius: 5px;
+    color: rgb(197, 15, 15);
+}
+
+.datadiri{
+    border-left: 1px dashed;
+    max-width: 1000px;
+    padding: 10px 15px;
+    width: 1000px;
+}
+
+.format{
+    padding-left: 20px;
+}
+
+.form-select{
+    margin: 5px;
+    padding: 2px 2px;
+}
+
+.card2{
+    width: 100%;
+    border: #0d45fd;
+    color:black
+
+}
+
+.form-group{
+    width: 100%;
+    background: transparent;
+    font-style: italic;
+}
